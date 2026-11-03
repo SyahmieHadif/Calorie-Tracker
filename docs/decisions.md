@@ -16,3 +16,8 @@ Source: https://www.fao.org/docrep/007/y5686e/y5686e07.htm
 Age 18–100 (adults only; Mifflin's original sample was aged 19–78),
 height 100–250 cm, weight 30–300 kg. Ranges catch typing errors
 without excluding real users. Results are rounded only for display.
+
+## 2026-11-03: In-memory sample data before the database
+Today and Add Food are built with sample data held in React state, so the
+screens and calculation logic can be finished and tested before adding
+Supabase. Daily totals are calculated from entries, never stored separately.
